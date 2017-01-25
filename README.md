@@ -12,6 +12,13 @@
     $ dpkg -s liblua5.2-dev | grep Version
     Version: 5.2.4-1ubuntu1
 
+    $ php -i | grep '^lua '
+    lua support => enabled
+    lua extension version => 2.0.2
+    lua release => Lua 5.2.4
+    lua copyright => Lua 5.2.4  Copyright (C) 1994-2015 Lua.org, PUC-Rio
+    lua authors => R. Ierusalimschy, L. H. de Figueiredo, W. Celes
+
     $ php test-assign.php
     Mem at start of test (real): 362920 (2097152)
     Mem at start of loop (real): 362952 (2097152)
